@@ -14,7 +14,7 @@ const Project = () => {
         return (
                <section
       id="Project"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative clip-path-custom-4"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -66,7 +66,7 @@ const Project = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-2xl overflow-hidden relative">
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}

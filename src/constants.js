@@ -65,6 +65,7 @@ import sscLogo from './assets/education_logo/ssc_logo.png';
 import Traventure from './assets/work_logo/Traventure.png';
 import Hospital from './assets/work_logo/Hospital.png';
 import Netflix from './assets/work_logo/Netflix.png';
+import InvestoX from './assets/work_logo/investoX.png';
 
 //Certificate
 import Ai_certificatev from './assets/Certificate/AI Certificate.png'
@@ -194,6 +195,17 @@ degree: "SSC (Class X), Semi-English Medium",
 
   export const projects = [
     {
+  id: 2,
+  title: "InvestoX",
+  description: "InvestoX is a full-stack stock trading app with Firebase authentication and real-time trade tracking. It features stock search, watchlist management, and a dynamic dashboard built using Chart.js.",
+  
+  image: InvestoX, // make sure you import or define `InvestoX` as an image path
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "Bootstrap", "Chart.js"],
+  github: "https://github.com/mayurburale2004/InvestoX", // update if different
+  webapp: "https://investox.onrender.com", // update with your actual deployment link
+}
+,
+    {
       id: 0,
       title: "Weather App",
       description:"A responsive weather website built with React.js and powered by the OpenWeatherMap API. Enter any city to view current weather conditions including temperature, humidity, and more.",
@@ -205,7 +217,8 @@ degree: "SSC (Class X), Semi-English Medium",
     {
       id: 1,
       title: "Traventure",
-      description:"Traventure is a full-stack web application designed to let users explore, book, and list vacation rentals such as houses, villas, and farmhouses. With real-time location views via **Geoapify**, secure **OAuth logins**, and  functionality, Traventure offers a complete and smooth travel experience for both guests and hosts.",
+     description: "Traventure is a full-stack travel platform for exploring, booking, and listing vacation rentals. It features real-time maps via Geoapify and secure OAuth logins for a smooth user experience.",
+
       
       image: Traventure,
       tags: [ "HTML", "CSS", "JavaScript", "Bootstrap", "EJS", "Node.js", "Express.js","MongoDB",
@@ -295,25 +308,26 @@ degree: "SSC (Class X), Semi-English Medium",
 },
 {
   id: 8,
+  title: "Workshop - Build Your Own Generative AI Model (NxtWave)",
+  image:Ai_certificatev,
+  description: "Participated in the workshop 'AI for Students: Build Your Own Generative AI Model' conducted by Mr. Abhinav Devaguptapu and hosted by NxtWave. Gained hands-on experience with Generative AI concepts, tools, and techniques. The session provided valuable insights into building and deploying AI models, inspiring deeper exploration into the rapidly evolving AI landscape.",
+
+},
+{
+  id: 9,
   title: "Java Programming Internship - CODTECH IT SOLUTIONS",
   image:Java_int,
   description: "Successfully completed a Java Programming Internship at CODTECH IT SOLUTIONS from 25th August to 10th October 2024. Gained practical experience working on real-world Java projects, enhanced object-oriented programming skills, and improved debugging, teamwork, and code optimization strategies. This internship strengthened my ability to develop scalable applications and deepened my understanding of core Java concepts.",
   
 },
 {
-  id: 9,
+  id: 10,
   title: "C/C++ Programming Internship - Cognifyz Technologies",
   image:inter,
   description: "Successfully completed a one-month internship on C/C++ Programming at Cognifyz Technologies. Gained hands-on experience in writing efficient and optimized C/C++ code, implementing data structures, handling file operations, and solving logical programming challenges. The internship helped strengthen core programming concepts and real-world problem-solving skills.",
  
 },
-{
-  id: 10,
-  title: "Workshop - Build Your Own Generative AI Model (NxtWave)",
-  image:Ai_certificatev,
-  description: "Participated in the workshop 'AI for Students: Build Your Own Generative AI Model' conducted by Mr. Abhinav Devaguptapu and hosted by NxtWave. Gained hands-on experience with Generative AI concepts, tools, and techniques. The session provided valuable insights into building and deploying AI models, inspiring deeper exploration into the rapidly evolving AI landscape.",
 
-},
 {
   id: 11,
   title: "Freedom with AI Masterclass - Avinash Mada",
