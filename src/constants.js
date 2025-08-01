@@ -65,7 +65,7 @@ import sscLogo from './assets/education_logo/ssc_logo.png';
 import Traventure from './assets/work_logo/Traventure.png';
 import Hospital from './assets/work_logo/Hospital.png';
 import Netflix from './assets/work_logo/Netflix.png';
-import InvestoX from './assets/work_logo/investoX.png';
+import InvestoX from './assets/work_logo/InvestoX.png';
 
 //Certificate
 import Ai_certificatev from './assets/Certificate/AI Certificate.png'
