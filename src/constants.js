@@ -202,7 +202,7 @@ degree: "SSC (Class X), Semi-English Medium",
   image: InvestoX, // make sure you import or define `InvestoX` as an image path
   tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "Bootstrap", "Chart.js"],
   github: "https://github.com/mayurburale2004/InvestoX", // update if different
-  webapp: "https://investox.onrender.com", // update with your actual deployment link
+  webapp: "https://investox.vercel.app", // update with your actual deployment link
 }
 ,
     {
