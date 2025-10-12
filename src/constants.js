@@ -65,7 +65,8 @@ import sscLogo from './assets/education_logo/ssc_logo.png';
 import Traventure from './assets/work_logo/Traventure.png';
 import Hospital from './assets/work_logo/Hospital.png';
 import Netflix from './assets/work_logo/Netflix.png';
-import InvestoX from './assets/work_logo/InvestoX.png';
+import InvestoX from "./assets/work_logo/InvestoX.png";
+
 
 //Certificate
 import Ai_certificatev from './assets/Certificate/AI Certificate.png'
@@ -74,13 +75,16 @@ import DSA from './assets/Certificate/DSA.jpg'
 
 import Hackathon  from './assets/Certificate/Hackathon.jpg'
 
+import Naukri_Certi  from './assets/Certificate/Naukri_Certi.png'
+ 
 import IIT_WEB from './assets/Certificate/IIT (1).jpg'
 import IIT_Webinar from './assets/Certificate/IIT_Webinar.jpg'
 import inter from './assets/Certificate/inter.jpg'
 import Java_int from './assets/Certificate/java intrn.png'
-
+Udemy
+import Udemy from './assets/Certificate/Udemy.jpg'
 import Marn_intern from './assets/Certificate/Marn_Intern.jpg'
-
+import Oracle_Certi from './assets/Certificate/Oracle_Certi.png';
 import Mern_Certi from './assets/Certificate/Mern_Stack.png'
 import Rreaserrch from './assets/Certificate/ReaserchPaper.jpg'
 import NPTl from './assets/Certificate/NPTL_JAVA.jpg'
@@ -249,6 +253,12 @@ degree: "SSC (Class X), Semi-English Medium",
   ];  
    export const Certificate=[
    {
+  id: 1,
+  title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+  image: Oracle_Certi,
+  description: "Achieved certification from Oracle Corporation in September 2025. Validated expertise in Generative AI, Large Language Models (LLMs), and Oracle Cloud Infrastructure AI Services. Demonstrated ability to design, implement, and manage AI-powered solutions using OCI.",
+},
+   {
   id: 0,
   title: "MERN Stack Development",
   image:Mern_Certi,
@@ -276,6 +286,20 @@ degree: "SSC (Class X), Semi-English Medium",
   description: "Completed a foundational course in C Programming from Infosys Springboard. Gained hands-on experience with variables, loops, conditionals, functions, arrays, pointers, and file handling. Built mini-projects and solved programming challenges to strengthen logical thinking and coding fundamentals.",
  
 },
+{
+  id: 4,
+  title: "Employee CyberSecurity Awareness: First Line of Defense",
+  image: Udemy,
+  description: "Successfully completed the CyberSecurity Awareness training from Udemy. Gained knowledge about online safety, phishing attack prevention, password security, and best practices to act as the first line of defense against cyber threats.",
+},
+{
+  id: 3,
+  title: "Naukri Campus Young Turks – Round 2 Qualified (Coding, Data Science & AI)",
+  image: Naukri_Certi,
+  description: "Cleared Round 1 of the Naukri Campus Young Turks competition with an All India Rank of #11108 and qualified for Round 2 in the Coding, Data Science & AI category with a rank of #3945. Gained valuable experience in coding challenges, data analysis, and AI concepts while competing with students across India.",
+},
+
+
 {
   id: 4,
   title: "Research Paper Publication - Hospital Management System",
