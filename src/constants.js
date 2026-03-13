@@ -18,7 +18,7 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 
-
+import JDBC from './assets/tech_logo/JDBC.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
@@ -28,7 +28,11 @@ import mongodbLogo from './assets/tech_logo/mongodb.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
+//import eclipse from './assets/tech_logo/eclipse';
+import eclipse from './assets/tech_logo/Eclipse.png';
 
+import IntelliJ from './assets/tech_logo/IntelliJ.png';
+import Postman from './assets/tech_logo/Postman.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -40,8 +44,11 @@ import GeeksForGeeks from './assets/tech_logo/GeeksForGeeks.png';
 import HackerRank from './assets/tech_logo/HackerRank.png';
 // import netlifyLogo from './assets/tech_logo/netlify.png';
  import vercelLogo from './assets/tech_logo/vercel.png';
+  import hibernate from './assets/tech_logo/hibernate.png';
+    import Spring_Boot from './assets/tech_logo/Spring Boot.png';
+      import Spring from './assets/tech_logo/spring.png';
 
-// import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
 import cognifyz from './assets/company_logo/cognifyz.png';
@@ -101,7 +108,7 @@ export const SkillsInfo = [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
 
-      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'Java- Script', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
      
     
@@ -117,8 +124,14 @@ export const SkillsInfo = [
      
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
+         { name: 'JDBC', logo: JDBC },
+      { name: 'Hibernate', logo: hibernate },
+         { name: 'Spring', logo: Spring },
+         { name: 'Spring Boot', logo: Spring_Boot },
+         
+       
       { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Mongo- DB', logo: mongodbLogo },
       
       
     ],
@@ -129,7 +142,7 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
-         { name: 'JavaScript', logo: javascriptLogo },
+         { name: 'Java- Script', logo: javascriptLogo },
      
     ],
   },
@@ -139,6 +152,10 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Eclipse', logo: eclipse },
+            { name: 'IntelliJ IDEA', logo: IntelliJ },
+   { name: 'Postman', logo: Postman },
+
        { name: 'Hopps- cotch', logo: HopsLogo },
 
        { name: 'Vercel', logo: vercelLogo },

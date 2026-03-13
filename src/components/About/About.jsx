@@ -24,8 +24,9 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
+                'Full Stack Developer',
                 'Mern Stack Developer',
+                'Java Full Stack Developer',
                                 'Coder',
               ]}
               speed={100}
@@ -38,12 +39,12 @@ const About = () => {
             />
           </h3>
           {/* About Me Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-         I am an Information Technology student with a strong interest in full-stack web development. I have knowledge of the MERN stack and Java, and I enjoy learning new technologies and building practical applications.
+       <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed text-justify max-w-xl">
+            I am an Information Technology student with a strong interest in Java Full Stack Development. I have experience in both frontend and backend technologies. On the backend side, I work with Java, JDBC, Hibernate, Spring, and Spring Boot to build scalable and efficient applications. On the frontend, I have knowledge of HTML, CSS, JavaScript, and React.js. I also have experience with MongoDB, Node.js, and Express.js (MERN Stack). I enjoy learning new technologies, solving real-world problems, and building practical web applications that improve user experience.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/10yILQZyWvVLWdWfHHPGqCR2s8vgy67uT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1S5mMuzJmAVUZyu2Nr-prczq2KMrF3QDA/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
