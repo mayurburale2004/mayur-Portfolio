@@ -88,8 +88,8 @@ import IIT_WEB from './assets/Certificate/IIT (1).jpg'
 import IIT_Webinar from './assets/Certificate/IIT_Webinar.jpg'
 import inter from './assets/Certificate/inter.jpg'
 import Java_int from './assets/Certificate/java intrn.png'
-Udemy
-import Udemy from './assets/Certificate/Udemy.jpg'
+
+import Udemy from './assets/Certificate/udemy.jpg'
 import Marn_intern from './assets/Certificate/Marn_Intern.jpg'
 import Oracle_Certi from './assets/Certificate/Oracle_Certi.png';
 import Mern_Certi from './assets/Certificate/Mern_Stack.png'
