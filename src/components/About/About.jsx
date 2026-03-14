@@ -2,80 +2,86 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/work_logo/maayur.png';
+
 const About = () => {
-    return (
+  return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="py-10 px-[7vw] md:px-[10vw] lg:px-[15vw] font-sans mt-20"
     >
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+
         {/* Left Side */}
-        <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          {/* Greeting */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
+        <div className="md:w-1/2 text-center md:text-left max-w-xl">
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2">
             Hi, I am
           </h1>
-          {/* Name */}
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-          Mayur Burale
+
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
+            Mayur Burale
           </h2>
-          {/* Skills Heading with Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec]">
             <span className="text-white">I am a </span>
+
             <ReactTypingEffect
               text={[
                 'Full Stack Developer',
-                'Mern Stack Developer',
+                'MERN Stack Developer',
                 'Java Full Stack Developer',
-                                'Coder',
+                'Coder',
               ]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
               eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
             />
           </h3>
-          {/* About Me Paragraph */}
-       <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed text-justify max-w-xl">
-            I am an Information Technology student with a strong interest in Java Full Stack Development. I have experience in both frontend and backend technologies. On the backend side, I work with Java, JDBC, Hibernate, Spring, and Spring Boot to build scalable and efficient applications. On the frontend, I have knowledge of HTML, CSS, JavaScript, and React.js. I also have experience with MongoDB, Node.js, and Express.js (MERN Stack). I enjoy learning new technologies, solving real-world problems, and building practical web applications that improve user experience.
+
+          <p className="text-base sm:text-lg text-gray-400 mb-8 leading-relaxed text-justify">
+            I am an Information Technology student with a strong interest in Java Full Stack Development.
+            I have experience in both frontend and backend technologies. On the backend side,
+            I work with Java, JDBC, Hibernate, Spring, and Spring Boot to build scalable
+            and efficient applications. On the frontend, I have knowledge of HTML, CSS,
+            JavaScript, and React.js. I also have experience with MongoDB, Node.js, and
+            Express.js (MERN Stack).
           </p>
-          {/* Resume Button */}
+
           <a
             href="https://drive.google.com/file/d/1S5mMuzJmAVUZyu2Nr-prczq2KMrF3QDA/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 hover:scale-105"
             style={{
               background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              boxShadow: '0 0 15px #8245ec',
             }}
           >
             DOWNLOAD RESUME
-             
           </a>
-          
+
         </div>
+
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div className="md:w-1/2 flex justify-center">
+
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
+            className="w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96 border-4 border-purple-700 rounded-full"
+            tiltMaxAngleX={15}
+            tiltMaxAngleY={15}
             scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
+            transitionSpeed={800}
           >
             <img
               src={profileImage}
               alt="Mayur Burale"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              className="w-full h-full rounded-full object-cover"
             />
           </Tilt>
+
         </div>
+
       </div>
     </section>
   );
