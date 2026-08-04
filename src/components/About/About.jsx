@@ -40,16 +40,11 @@ const About = () => {
           </h3>
 
           <p className="text-base sm:text-lg text-gray-400 mb-8 leading-relaxed text-justify">
-            I am an Information Technology student with a strong interest in Java Full Stack Development.
-            I have experience in both frontend and backend technologies. On the backend side,
-            I work with Java, JDBC, Hibernate, Spring, and Spring Boot to build scalable
-            and efficient applications. On the frontend, I have knowledge of HTML, CSS,
-            JavaScript, and React.js. I also have experience with MongoDB, Node.js, and
-            Express.js (MERN Stack).
+          I am an IT graduate and Full Stack Developer, currently interning at BootCoding Pvt. Ltd. as a Full Stack Development Intern, working with Next.js, TypeScript, MongoDB, and MDX. I specialize in the JavaScript/TypeScript ecosystem — React.js, Node.js, and Express.js — with database experience in MongoDB, PostgreSQL, and MySQL. I also have a foundation in Java full-stack development using JDBC, Hibernate, Spring, and Spring Boot. I've built AI-powered applications integrating Generative AI/LLMs and hold an Oracle Generative AI Professional certification.
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1S5mMuzJmAVUZyu2Nr-prczq2KMrF3QDA/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CPRaYgaXXST_RoKyt19kajZs6emTAUUU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 hover:scale-105"
