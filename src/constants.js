@@ -54,6 +54,8 @@ import HackerRank from './assets/tech_logo/HackerRank.png';
 import cognifyz from './assets/company_logo/cognifyz.png';
 import Codtech from './assets/company_logo/Codtech.jpg';
 import edunet from './assets/company_logo/edunet-partners.png';
+import bootcoding from './assets/company_logo/bootcoding.png';
+
 
 // // Education Section Logo's
 
@@ -73,6 +75,8 @@ import Traventure from './assets/work_logo/Traventure.png';
 import Hospital from './assets/work_logo/Hospital.png';
 import Netflix from './assets/work_logo/Netflix.png';
 import InvestoX from "./assets/work_logo/InvestoX.png";
+import Ai_Online from "./assets/work_logo/Ai_online.png";
+import foodDelic from "./assets/work_logo/foodDelic.png";
 
 
 //Certificate
@@ -98,7 +102,7 @@ import NPTl from './assets/Certificate/NPTL_JAVA.jpg'
 
 import AINCAT from './assets/Certificate/AINCAT.jpg'
 import c_Programming from './assets/Certificate/c_Programming.jpg'
-
+import FSD_Certi from './assets/Certificate/FSD.png'
 
 
 export const SkillsInfo = [
@@ -216,6 +220,41 @@ degree: "SSC (Class X), Semi-English Medium",
 
   export const projects = [
     {
+  id: 3,
+  title: "Full Stack Food Delivery App",
+  description: "A full-stack food delivery web application enabling users to browse restaurants, add items to cart, and place orders in real time. Built with a React frontend and Spring Boot backend, using MongoDB for data storage and Cloudinary for image upload and management.",
+  image: foodDelic,
+  tags: [
+    "React.js",
+    "Spring Boot",
+    "MongoDB",
+    "Cloudinary",
+    "Java",
+    "REST API"
+  ],
+  github: "https://github.com/mayurburale2004/food-delivery-app.git",
+  webapp: "",
+},
+    {
+  id: 2,
+  title: "AI Online Learning Platform",
+  description: "AI Online Learning Platform is a full-stack AI-powered e-learning platform that lets users generate personalized courses from a single topic prompt using a generative LLM. It features a smart progress dashboard, automated YouTube video suggestions, Clerk authentication, and a serverless architecture for a seamless learning experience.",
+  image: Ai_Online,
+  tags: [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "Drizzle ORM",
+    "Neon",
+    "Clerk",
+    "AI",
+    "API"
+  ],
+  github: "https://github.com/mayurburale2004/Ai-Learning-Platform.git",
+  webapp: "https://learnaihubpce.vercel.app",
+},
+    {
   id: 2,
   title: "InvestoX",
   description: "InvestoX is a full-stack stock trading app with Firebase authentication and real-time trade tracking. It features stock search, watchlist management, and a dynamic dashboard built using Chart.js.",
@@ -255,7 +294,7 @@ degree: "SSC (Class X), Semi-English Medium",
        image: Hospital,
       tags: [" Java", "MySQL"],
       github: "https://github.com/mayurburale2004/Hospital-Management-System-Java-GUI-MySQL-",
-      webapp: "https://github.com/mayurburale2004/Hospital-Management-System-Java-GUI-MySQL-",
+      webapp: "",
     },
     {
       id: 3,
@@ -264,11 +303,17 @@ degree: "SSC (Class X), Semi-English Medium",
        image: Netflix,
       tags: ["HTML" , "CSS"],
       github: "https://github.com/mayurburale2004/Netflix-Clone-HTML-CSS-",
-      webapp: "https://github.com/mayurburale2004/Netflix-Clone-HTML-CSS-",
+      webapp: "",
     },
     
   ];  
    export const Certificate=[
+    {
+  id: 1,
+  title: "Full Stack Development - Java (FutureSkills Prime, NASSCOM)",
+  image: FSD_Certi,
+  description: "Successfully completed the experiential learning program 'Full Stack Development - Java' under FutureSkills Prime, a MeitY-NASSCOM Digital Skilling Initiative, aligned with NOS (SSC/N8149) Essentials of Solution Development in IT, NSQF Level 5. Certified by NASSCOM IT-ITeS Sector Skills Council on 05th March 2026.",
+},
    {
   id: 1,
   title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
@@ -290,27 +335,27 @@ degree: "SSC (Class X), Semi-English Medium",
 
 },
 {
-  id: 2,
+  id: 1,
   title: "Java Programming - NPTEL Certification",
   image:NPTl,
   description: "Successfully completed the 12-week NPTEL course on Java Programming conducted by IIT Kharagpur. Covered object-oriented programming concepts, exception handling, file I/O, multithreading, collections framework, and GUI development in Java. Earned certification based on weekly assignments and final proctored exam.",
 
 },
 {
-  id: 3,
+  id: 2,
   title: "C Programming - Infosys Springboard",
   image:c_Programming,
   description: "Completed a foundational course in C Programming from Infosys Springboard. Gained hands-on experience with variables, loops, conditionals, functions, arrays, pointers, and file handling. Built mini-projects and solved programming challenges to strengthen logical thinking and coding fundamentals.",
  
 },
 {
-  id: 4,
+  id: 3,
   title: "Employee CyberSecurity Awareness: First Line of Defense",
   image: Udemy,
   description: "Successfully completed the CyberSecurity Awareness training from Udemy. Gained knowledge about online safety, phishing attack prevention, password security, and best practices to act as the first line of defense against cyber threats.",
 },
 {
-  id: 3,
+  id: 4,
   title: "Naukri Campus Young Turks – Round 2 Qualified (Coding, Data Science & AI)",
   image: Naukri_Certi,
   description: "Cleared Round 1 of the Naukri Campus Young Turks competition with an All India Rank of #11108 and qualified for Round 2 in the Coding, Data Science & AI category with a rank of #3945. Gained valuable experience in coding challenges, data analysis, and AI concepts while competing with students across India.",
@@ -318,7 +363,7 @@ degree: "SSC (Class X), Semi-English Medium",
 
 
 {
-  id: 4,
+  id: 5,
   title: "Research Paper Publication - Hospital Management System",
   image:Rreaserrch,
   description: "Published a research paper titled 'Hospital Management System (HMS)' in the IJSRD - International Journal for Scientific Research & Development. The paper explores digital transformation in healthcare through modules like Electronic Medical Records (EMR), Patient Data Management, Appointment Scheduling, and Medical Billing Automation. Aimed at improving hospital workflows for efficient, smart healthcare delivery.",
@@ -327,42 +372,42 @@ degree: "SSC (Class X), Semi-English Medium",
 }
 ,
 {
-  id: 5,
+  id: 6,
   title: "AINCAT 2025 - All India Naukri Campus Aptitude Test",
   image:AINCAT,
   description: "Successfully participated in AINCAT 2025, India’s largest national-level career aptitude test organized by Naukri Campus. Assessed on aptitude, logical reasoning, and problem-solving skills among thousands of participants across the country. Secured an All India Rank (AIR) of 12,876 and gained valuable insights into career preparedness and competitive performance.",
  
 },
 {
-  id: 6,
+  id: 7,
   title: "Java Hackathon - Priyadarshi College of Engineering",
   image:Hackathon,
   description: "Participated in a Java-focused hackathon organized by the IT Department of Priyadarshi College of Engineering, Nagpur, on August 30, 2024. Collaborated with peers to solve real-world problems under time constraints. Strengthened Java programming skills, enhanced problem-solving strategies, and gained experience in teamwork and agile thinking through hands-on development.",
  
 },
 {
-  id: 7,
+  id: 8,
   title: "Internship - EY GDS & AICTE (Next Gen Employability Program)",
   image:Marn_intern,
   description: "Completed a six-week internship from February 10 to March 21, 2025, under the Next Gen Employability Program, organized by EY Global Delivery Services (EY GDS) in collaboration with AICTE. Gained hands-on experience in building modern web applications, full-stack development, and working with cutting-edge web technologies. This program strengthened my technical foundation and enhanced my real-world project exposure.",
  
 },
 {
-  id: 8,
+  id: 9,
   title: "Workshop - Build Your Own Generative AI Model (NxtWave)",
   image:Ai_certificatev,
   description: "Participated in the workshop 'AI for Students: Build Your Own Generative AI Model' conducted by Mr. Abhinav Devaguptapu and hosted by NxtWave. Gained hands-on experience with Generative AI concepts, tools, and techniques. The session provided valuable insights into building and deploying AI models, inspiring deeper exploration into the rapidly evolving AI landscape.",
 
 },
 {
-  id: 9,
+  id: 10,
   title: "Java Programming Internship - CODTECH IT SOLUTIONS",
   image:Java_int,
   description: "Successfully completed a Java Programming Internship at CODTECH IT SOLUTIONS from 25th August to 10th October 2024. Gained practical experience working on real-world Java projects, enhanced object-oriented programming skills, and improved debugging, teamwork, and code optimization strategies. This internship strengthened my ability to develop scalable applications and deepened my understanding of core Java concepts.",
   
 },
 {
-  id: 10,
+  id: 11,
   title: "C/C++ Programming Internship - Cognifyz Technologies",
   image:inter,
   description: "Successfully completed a one-month internship on C/C++ Programming at Cognifyz Technologies. Gained hands-on experience in writing efficient and optimized C/C++ code, implementing data structures, handling file operations, and solving logical programming challenges. The internship helped strengthen core programming concepts and real-world problem-solving skills.",
@@ -370,21 +415,21 @@ degree: "SSC (Class X), Semi-English Medium",
 },
 
 {
-  id: 11,
+  id: 12,
   title: "Freedom with AI Masterclass - Avinash Mada",
   image:AI_Webinar,
   description: "Successfully completed the Freedom with AI Masterclass on 8th February 2025, conducted by Avinash Mada. This session offered deep insights into the transformative power of Artificial Intelligence and practical strategies to leverage AI effectively in the modern world. The masterclass boosted my vision and confidence in applying AI to real-world challenges.",
  
 },
 {
-  id: 12,
+  id: 13,
   title: "Webinar - Elective Your Career Skill for the Future Workforce (IIT Madras)",
   image:IIT_Webinar,
   description: "Participated in the webinar 'Elective Your Career Skill for the Future Workforce' conducted by IIT Madras. The session offered deep insights into emerging career trends, essential future skills, and strategies for aligning with evolving industry demands. This experience helped enhance my career planning and skill-building roadmap.",
 
 },
 {
-  id: 13,
+  id: 14,
   title: "Workshop - Placement Preparation (IIT Bombay)",
   image:IIT_WEB,
   description: "Successfully completed a 2-day workshop on Placement Preparation conducted by IIT Bombay. The workshop focused on essential skills for campus placements including resume building, interview strategies, aptitude practice, and communication techniques. It provided valuable guidance for excelling in placement drives and boosting employability.",
@@ -398,7 +443,26 @@ degree: "SSC (Class X), Semi-English Medium",
 
 export const experiences = [
    {
-    id: 0,
+    id: 1,
+    img: bootcoding,
+    role: "Full Stack Development Intern",
+    company: "BootCoding Pvt. Ltd.",
+    date: "Jun 2026 – Present",
+    desc: "Working on full-stack  development building scalable, real-world web applications using Next.js, Nest.js, Tailwind CSS, MDX, and MongoDB. Contributing to API integration, database management, and end-to-end frontend-backend development, while gaining hands-on experience with modern TypeScript-based tooling and MDX-based documentation.",
+    skills: [
+      "Next.js",
+      "Nest.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MDX",
+      "MongoDB",
+      "React",
+      "Node.js",
+      "Git",
+    ],
+  },
+   {
+    id: 2,
     img: edunet,
     role: "Full Stack Web Development Intern (MERN)",
     company: "EY Global Delivery Services (EY GDS) & AICTE (via Edunet Foundation)",
@@ -419,7 +483,7 @@ export const experiences = [
   },
   
   {
-    id: 1,
+    id: 3,
     img: Codtech,
     role: "Java Programming Intern",
     company: "Codtech IT Solutions",
@@ -435,7 +499,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: cognifyz,
     role: "C/C++ Programming Intern",
     company: "Cognifyz Technologies",
