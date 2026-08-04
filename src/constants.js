@@ -77,6 +77,7 @@ import Netflix from './assets/work_logo/Netflix.png';
 import InvestoX from "./assets/work_logo/InvestoX.png";
 import Ai_Online from "./assets/work_logo/Ai_online.png";
 import foodDelic from "./assets/work_logo/foodDelic.png";
+import IPTracker from "./assets/work_logo/IPTracker.png";
 
 
 //Certificate
@@ -220,7 +221,7 @@ degree: "SSC (Class X), Semi-English Medium",
 
   export const projects = [
     {
-  id: 3,
+  id: 0,
   title: "Full Stack Food Delivery App",
   description: "A full-stack food delivery web application enabling users to browse restaurants, add items to cart, and place orders in real time. Built with a React frontend and Spring Boot backend, using MongoDB for data storage and Cloudinary for image upload and management.",
   image: foodDelic,
@@ -236,7 +237,7 @@ degree: "SSC (Class X), Semi-English Medium",
   webapp: "",
 },
     {
-  id: 2,
+  id: 1,
   title: "AI Online Learning Platform",
   description: "AI Online Learning Platform is a full-stack AI-powered e-learning platform that lets users generate personalized courses from a single topic prompt using a generative LLM. It features a smart progress dashboard, automated YouTube video suggestions, Clerk authentication, and a serverless architecture for a seamless learning experience.",
   image: Ai_Online,
@@ -266,7 +267,7 @@ degree: "SSC (Class X), Semi-English Medium",
 }
 ,
     {
-      id: 0,
+      id: 3,
       title: "Weather App",
       description:"A responsive weather website built with React.js and powered by the OpenWeatherMap API. Enter any city to view current weather conditions including temperature, humidity, and more.",
        image: Weather,
@@ -275,7 +276,7 @@ degree: "SSC (Class X), Semi-English Medium",
       webapp: "https://weather-app-olq9.onrender.com/",
     },
     {
-      id: 1,
+      id: 4,
       title: "Traventure",
      description: "Traventure is a full-stack travel platform for exploring, booking, and listing vacation rentals. It features real-time maps via Geoapify and secure OAuth logins for a smooth user experience.",
 
@@ -287,7 +288,7 @@ degree: "SSC (Class X), Semi-English Medium",
       webapp: "https://traventure-1.onrender.com/listings",
     },
     {
-      id: 2,
+      id: 5,
       title: "Hospital Management System",
       description:
       "Built a desktop application using Java Swing to manage hospital workflows such as patient registration, room allocation, discharge process and ambulance data. Integrated MySQL for secure, structured and efficient data management. ",
@@ -297,7 +298,7 @@ degree: "SSC (Class X), Semi-English Medium",
       webapp: "",
     },
     {
-      id: 3,
+      id: 6,
       title: "Netflix Clone",
       description:" Created a responsive Netflix homepage clone focusing on layout design, UI components and styling.",
        image: Netflix,
@@ -305,11 +306,25 @@ degree: "SSC (Class X), Semi-English Medium",
       github: "https://github.com/mayurburale2004/Netflix-Clone-HTML-CSS-",
       webapp: "",
     },
+    {
+      id: 7,
+      title: "IP Tracker",
+      description: "A web application that detects and displays the user's public IP address along with detailed geolocation information, including ISP/network, city, region, and country. Fetches real-time IP data from the ipwho.is API and presents it in a clean, easy-to-read dashboard.",
+      image: IPTracker,
+      tags: [
+        "React.js",
+        "API",
+        "Geolocation",
+        "JavaScript"
+      ],
+      github: "https://github.com/mayurburale2004/ip-my-tracker",
+      webapp: "https://ip-my-tracker.vercel.app/",
+    },
     
   ];  
    export const Certificate=[
     {
-  id: 1,
+  id: 0,
   title: "Full Stack Development - Java (FutureSkills Prime, NASSCOM)",
   image: FSD_Certi,
   description: "Successfully completed the experiential learning program 'Full Stack Development - Java' under FutureSkills Prime, a MeitY-NASSCOM Digital Skilling Initiative, aligned with NOS (SSC/N8149) Essentials of Solution Development in IT, NSQF Level 5. Certified by NASSCOM IT-ITeS Sector Skills Council on 05th March 2026.",
@@ -321,41 +336,41 @@ degree: "SSC (Class X), Semi-English Medium",
   description: "Achieved certification from Oracle Corporation in September 2025. Validated expertise in Generative AI, Large Language Models (LLMs), and Oracle Cloud Infrastructure AI Services. Demonstrated ability to design, implement, and manage AI-powered solutions using OCI.",
 },
    {
-  id: 0,
+  id: 2,
   title: "MERN Stack Development",
   image:Mern_Certi,
   description: "Successfully completed a comprehensive MERN Stack Development course from Apna College in July 2025. Gained hands-on experience with MongoDB, Express.js, React.js, and Node.js. Built full-stack projects, implemented RESTful APIs, authentication systems, and deployed applications using modern development practices.",
   
 },
 {
-  id: 1,
+  id: 3,
   title: "Data Structures and Algorithms (DSA) in Java",
   image:DSA,
   description: "Completed an in-depth DSA course using Java, covering core data structures like arrays, linked lists, stacks, queues, trees, heaps, graphs, and algorithms such as sorting, searching, recursion, backtracking, and dynamic programming. Strengthened problem-solving skills by practicing over 250+ coding questions on platforms like LeetCode, GeeksforGeeks (GFG), and HackerRank."
 
 },
 {
-  id: 1,
+  id: 4,
   title: "Java Programming - NPTEL Certification",
   image:NPTl,
   description: "Successfully completed the 12-week NPTEL course on Java Programming conducted by IIT Kharagpur. Covered object-oriented programming concepts, exception handling, file I/O, multithreading, collections framework, and GUI development in Java. Earned certification based on weekly assignments and final proctored exam.",
 
 },
 {
-  id: 2,
+  id: 5,
   title: "C Programming - Infosys Springboard",
   image:c_Programming,
   description: "Completed a foundational course in C Programming from Infosys Springboard. Gained hands-on experience with variables, loops, conditionals, functions, arrays, pointers, and file handling. Built mini-projects and solved programming challenges to strengthen logical thinking and coding fundamentals.",
  
 },
 {
-  id: 3,
+  id: 6,
   title: "Employee CyberSecurity Awareness: First Line of Defense",
   image: Udemy,
   description: "Successfully completed the CyberSecurity Awareness training from Udemy. Gained knowledge about online safety, phishing attack prevention, password security, and best practices to act as the first line of defense against cyber threats.",
 },
 {
-  id: 4,
+  id: 7,
   title: "Naukri Campus Young Turks – Round 2 Qualified (Coding, Data Science & AI)",
   image: Naukri_Certi,
   description: "Cleared Round 1 of the Naukri Campus Young Turks competition with an All India Rank of #11108 and qualified for Round 2 in the Coding, Data Science & AI category with a rank of #3945. Gained valuable experience in coding challenges, data analysis, and AI concepts while competing with students across India.",
@@ -363,7 +378,7 @@ degree: "SSC (Class X), Semi-English Medium",
 
 
 {
-  id: 5,
+  id: 8,
   title: "Research Paper Publication - Hospital Management System",
   image:Rreaserrch,
   description: "Published a research paper titled 'Hospital Management System (HMS)' in the IJSRD - International Journal for Scientific Research & Development. The paper explores digital transformation in healthcare through modules like Electronic Medical Records (EMR), Patient Data Management, Appointment Scheduling, and Medical Billing Automation. Aimed at improving hospital workflows for efficient, smart healthcare delivery.",
@@ -372,42 +387,42 @@ degree: "SSC (Class X), Semi-English Medium",
 }
 ,
 {
-  id: 6,
+  id: 9,
   title: "AINCAT 2025 - All India Naukri Campus Aptitude Test",
   image:AINCAT,
   description: "Successfully participated in AINCAT 2025, India’s largest national-level career aptitude test organized by Naukri Campus. Assessed on aptitude, logical reasoning, and problem-solving skills among thousands of participants across the country. Secured an All India Rank (AIR) of 12,876 and gained valuable insights into career preparedness and competitive performance.",
  
 },
 {
-  id: 7,
+  id: 10,
   title: "Java Hackathon - Priyadarshi College of Engineering",
   image:Hackathon,
   description: "Participated in a Java-focused hackathon organized by the IT Department of Priyadarshi College of Engineering, Nagpur, on August 30, 2024. Collaborated with peers to solve real-world problems under time constraints. Strengthened Java programming skills, enhanced problem-solving strategies, and gained experience in teamwork and agile thinking through hands-on development.",
  
 },
 {
-  id: 8,
+  id: 11,
   title: "Internship - EY GDS & AICTE (Next Gen Employability Program)",
   image:Marn_intern,
   description: "Completed a six-week internship from February 10 to March 21, 2025, under the Next Gen Employability Program, organized by EY Global Delivery Services (EY GDS) in collaboration with AICTE. Gained hands-on experience in building modern web applications, full-stack development, and working with cutting-edge web technologies. This program strengthened my technical foundation and enhanced my real-world project exposure.",
  
 },
 {
-  id: 9,
+  id: 12,
   title: "Workshop - Build Your Own Generative AI Model (NxtWave)",
   image:Ai_certificatev,
   description: "Participated in the workshop 'AI for Students: Build Your Own Generative AI Model' conducted by Mr. Abhinav Devaguptapu and hosted by NxtWave. Gained hands-on experience with Generative AI concepts, tools, and techniques. The session provided valuable insights into building and deploying AI models, inspiring deeper exploration into the rapidly evolving AI landscape.",
 
 },
 {
-  id: 10,
+  id: 13,
   title: "Java Programming Internship - CODTECH IT SOLUTIONS",
   image:Java_int,
   description: "Successfully completed a Java Programming Internship at CODTECH IT SOLUTIONS from 25th August to 10th October 2024. Gained practical experience working on real-world Java projects, enhanced object-oriented programming skills, and improved debugging, teamwork, and code optimization strategies. This internship strengthened my ability to develop scalable applications and deepened my understanding of core Java concepts.",
   
 },
 {
-  id: 11,
+  id: 14,
   title: "C/C++ Programming Internship - Cognifyz Technologies",
   image:inter,
   description: "Successfully completed a one-month internship on C/C++ Programming at Cognifyz Technologies. Gained hands-on experience in writing efficient and optimized C/C++ code, implementing data structures, handling file operations, and solving logical programming challenges. The internship helped strengthen core programming concepts and real-world problem-solving skills.",
@@ -415,21 +430,21 @@ degree: "SSC (Class X), Semi-English Medium",
 },
 
 {
-  id: 12,
+  id: 15,
   title: "Freedom with AI Masterclass - Avinash Mada",
   image:AI_Webinar,
   description: "Successfully completed the Freedom with AI Masterclass on 8th February 2025, conducted by Avinash Mada. This session offered deep insights into the transformative power of Artificial Intelligence and practical strategies to leverage AI effectively in the modern world. The masterclass boosted my vision and confidence in applying AI to real-world challenges.",
  
 },
 {
-  id: 13,
+  id: 16,
   title: "Webinar - Elective Your Career Skill for the Future Workforce (IIT Madras)",
   image:IIT_Webinar,
   description: "Participated in the webinar 'Elective Your Career Skill for the Future Workforce' conducted by IIT Madras. The session offered deep insights into emerging career trends, essential future skills, and strategies for aligning with evolving industry demands. This experience helped enhance my career planning and skill-building roadmap.",
 
 },
 {
-  id: 14,
+  id: 17,
   title: "Workshop - Placement Preparation (IIT Bombay)",
   image:IIT_WEB,
   description: "Successfully completed a 2-day workshop on Placement Preparation conducted by IIT Bombay. The workshop focused on essential skills for campus placements including resume building, interview strategies, aptitude practice, and communication techniques. It provided valuable guidance for excelling in placement drives and boosting employability.",
@@ -443,7 +458,7 @@ degree: "SSC (Class X), Semi-English Medium",
 
 export const experiences = [
    {
-    id: 1,
+    id: 0,
     img: bootcoding,
     role: "Full Stack Development Intern",
     company: "BootCoding Pvt. Ltd.",
@@ -462,7 +477,7 @@ export const experiences = [
     ],
   },
    {
-    id: 2,
+    id: 1,
     img: edunet,
     role: "Full Stack Web Development Intern (MERN)",
     company: "EY Global Delivery Services (EY GDS) & AICTE (via Edunet Foundation)",
@@ -483,7 +498,7 @@ export const experiences = [
   },
   
   {
-    id: 3,
+    id: 2,
     img: Codtech,
     role: "Java Programming Intern",
     company: "Codtech IT Solutions",
@@ -499,7 +514,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     img: cognifyz,
     role: "C/C++ Programming Intern",
     company: "Cognifyz Technologies",
@@ -515,4 +530,3 @@ export const experiences = [
   },
  
 ];
-
